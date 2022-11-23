@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Counter</title>
+</head>
+<body>
+    <main class="bg-sky-200">
+        <div class="counterContainer flex flex-col gap-4 justify-center items-center h-[100vh]">
+            <h1 class="text-2xl font-bold tracking-widest uppercase">Counter</h1>
+            <span class="text-6xl font-medium bg-white shadow-md shadow-black p-4 rounded-xl" id="value">0</span>
+            <div class="btn-container">
+                <button class="btn decrease uppercase text-xs border border-2 border-black px-3 py-1 mx-1 hover:bg-red-600 hover:text-white hover:border-red-600 transition rounded-md leading-none font-medium tracking-widest shadow-md shadow-black">Decrease</button>
+                <button class="btn reset uppercase text-xs border border-2 border-black px-3 py-1 mx-1 hover:bg-black hover:text-white  transition rounded-md leading-none font-medium tracking-widest shadow-md shadow-black">reset</button>
+                <button class="btn increase uppercase text-xs border border-2 border-black px-3 py-1 mx-1 hover:bg-green-600 hover:text-white hover:border-green-600 transition rounded-md leading-none font-medium tracking-widest shadow-md shadow-black">increase</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
